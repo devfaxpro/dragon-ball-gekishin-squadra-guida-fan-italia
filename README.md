@@ -1,4 +1,4 @@
-Dragon Ball Gekishin Squadra — Guida fan Italia
+# Dragon Ball Gekishin Squadra — Guida fan Italia
 
 **Una guida in italiano, da fan per fan, per capire il gioco e migliorare le proprie scelte in partita.**
 
@@ -30,7 +30,7 @@ La dicitura **«Generato con ChatGPT»** compare in fondo a tutte le pagine.
 
 1. Scarica ed estrai lo ZIP del progetto.
 2. Apri il file **`index.html`** con il browser.
-3. Mantieni i file e la cartella `assets` nella disposizione originale.
+3. Mantieni tutti i file nella stessa cartella, senza creare sottocartelle.
 
 I collegamenti ai siti ufficiali richiedono una connessione Internet.
 
@@ -57,7 +57,7 @@ Se lo hai già creato, aprilo e seleziona la scheda **Code**. Altrimenti usa **+
 
 ### 3. Carica il contenuto estratto
 
-Trascina nella pagina **tutti i file estratti e la cartella `assets`**. Non caricare lo ZIP e non trascinare una cartella esterna che racchiude tutto il sito: `index.html` deve trovarsi direttamente nella pagina principale del repository.
+Trascina nella pagina **tutti i file estratti, direttamente nella cartella principale del repository**. Non caricare lo ZIP e non trascinare una cartella esterna che racchiude tutto il sito: `index.html` deve trovarsi direttamente nella pagina principale del repository.
 
 Conferma con **Commit changes**, salvando nel ramo `main`. Se GitHub propone una modifica tramite un nuovo ramo, completa anche la relativa richiesta di integrazione prima di pubblicare da `main`.
 
@@ -80,7 +80,7 @@ Usa l'indirizzo mostrato da GitHub. Questo è soltanto un esempio da personalizz
 https://TUO-UTENTE.github.io/dragon-ball-gekishin-squadra-guida-fan-italia/
 ```
 
-La presenza di questo README non significa che il sito sia già stato pubblicato.
+Sito pubblicato e verificato dopo la correzione dei percorsi: https://devfaxpro.github.io/dragon-ball-gekishin-squadra-guida-fan-italia/
 
 Istruzioni controllate il **15 ottobre 2026**. Riferimenti: [caricare file su GitHub](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository) e [configurare GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
@@ -89,7 +89,7 @@ Istruzioni controllate il **15 ottobre 2026**. Riferimenti: [caricare file su Gi
 | Problema | Cosa controllare |
 | --- | --- |
 | Il sito mostra un errore 404 | `index.html` deve essere nella radice di `main`; Pages deve usare `main` e `/(root)`. |
-| Il sito appare senza colori o impaginazione | Verifica di aver caricato la cartella `assets` con tutti i suoi file. |
+| Il sito appare senza colori o impaginazione | Verifica che `style.css`, `app.js` e `favicon.svg` siano accanto a `index.html`. |
 | Le modifiche non compaiono | Attendi la nuova pubblicazione in **Actions**, poi ricarica la pagina. |
 | Un file non viene trovato | Mantieni nomi e maiuscole/minuscole esattamente come nel pacchetto. |
 
@@ -101,10 +101,9 @@ Istruzioni controllate il **15 ottobre 2026**. Riferimenti: [caricare file su Gi
 ├── note.html
 ├── 404.html
 ├── .nojekyll
-├── assets/
-│   ├── style.css
-│   ├── app.js
-│   └── favicon.svg
+├── style.css
+├── app.js
+├── favicon.svg
 ├── README.md
 ├── DESCRIZIONE-REPOSITORY.txt
 ├── VERIFICA.md
@@ -138,3 +137,7 @@ Il codice non imposta cookie, non raccoglie dati tramite moduli e non usa pubbli
 Realizzato con il supporto di **ChatGPT**. Dragon Ball, Dragon Ball Gekishin Squadra e i relativi marchi e personaggi appartengono ai rispettivi titolari. I nomi sono utilizzati per identificare l'argomento della guida.
 
 Questo progetto è un aiuto realizzato da fan, non un sito ufficiale. Il disclaimer non implica un'autorizzazione da parte dei titolari dei diritti.
+
+## Correzione della pubblicazione
+
+Questo pacchetto usa tutti i file allo stesso livello. Le pagine caricano `style.css`, `app.js` e `favicon.svg` dalla cartella principale, come nel repository pubblicato. Non è più necessaria la cartella `assets`.
