@@ -1,7 +1,0 @@
-DRAGON BALL GEKISHIN SQUADRA — GUIDA FAN ITALIA — TESTI E ASSET
-
-Questo pacchetto contiene testi originali, HTML, CSS, JavaScript e disegni geometrici SVG realizzati per il progetto. Non contiene font di terzi, librerie distribuite, screenshot, loghi, ritratti di personaggi, musica, video o file estratti dal gioco.
-
-I riferimenti testuali a Dragon Ball e Dragon Ball Gekishin Squadra servono a identificare l'argomento. I marchi, i personaggi e le proprietà intellettuali del gioco restano dei rispettivi titolari. Il progetto non è ufficiale o approvato e non concede diritti su tali proprietà.
-
-Il destinatario può modificare e pubblicare i file originali consegnati per questo progetto, mantenendo corrette le indicazioni di indipendenza e le fonti. Nessuna autorizzazione dei titolari del gioco è implicita. L'assenza di asset proprietari e il disclaimer non equivalgono a una certificazione legale.
