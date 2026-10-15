@@ -1,143 +1,85 @@
 # Dragon Ball Gekishin Squadra — Guida fan Italia
 
-**Una guida in italiano, da fan per fan, per capire il gioco e migliorare le proprie scelte in partita.**
+**Una guida indipendente in italiano, da fan per fan.**
 
-Progetto indipendente e non ufficiale dedicato a chi vuole imparare a giocare a **Dragon Ball Gekishin Squadra**. Spiega le basi, il contributo dei diversi ruoli e il ragionamento dietro le decisioni strategiche, con un linguaggio semplice e consigli originali.
+Un aiuto per imparare le basi di Dragon Ball Gekishin Squadra, comprendere i ruoli e scegliere meglio quando attaccare, difendere o seguire un obiettivo. Include consigli originali, esercizi, domande frequenti e una checklist per la prossima partita.
 
-> Questo sito non è affiliato, sponsorizzato o approvato da Bandai Namco Entertainment, Bird Studio/Shueisha, Toei Animation o dagli altri titolari dei diritti.
+**Sito non ufficiale:** non affiliato, sponsorizzato o approvato da Bandai Namco Entertainment, Bird Studio/Shueisha, Toei Animation o dagli altri titolari dei diritti.
 
-## Cosa trovi nel sito
+## Il sito
 
-- **Primi passi:** obiettivo della partita e indicazioni per iniziare.
-- **Ruoli:** come contribuire al gruppo con Damage, Tank e Technical nel regolamento GEKISHIN descritto.
-- **Strategia:** posizionamento, risorse disponibili e priorità della squadra.
-- **Esercizi:** situazioni pratiche con consigli da aprire e leggere.
-- **Checklist:** abitudini da provare nella prossima partita.
-- **Domande frequenti:** risposte introduttive per orientarsi.
-- **Fonti e trasparenza:** riferimenti ufficiali, data di verifica e limiti delle guide.
+[Sito pubblicato](https://devfaxpro.github.io/dragon-ball-gekishin-squadra-guida-fan-italia/)
 
-Il progetto è dedicato all'apprendimento: non include community, Discord, classifiche degli eroi o un'enciclopedia duplicata. Per personaggi, abilità, notizie e download rimanda al [sito ufficiale del gioco](https://dbg-squadra.bn-ent.net/en-gb/).
+Questa versione semplifica il caricamento: stile grafico, icona e funzioni sono incorporati nelle pagine. Non serve una cartella di risorse e non bisogna caricare separatamente CSS o JavaScript. L'indirizzo sopra mostrerà questa versione dopo il caricamento e la nuova pubblicazione di GitHub Pages.
 
-## Aspetto e funzionamento
+## Quali file caricare
 
-Il tema richiama i colori della divisa di Goku: **arancione, blu intenso e accenti dorati**, su fondo crema. Testi, simboli e schema tattico sono originali; non sono inclusi immagini del personaggio, loghi, screenshot, musica o altri asset estratti dal gioco.
+Carica questi **quattro file nella cartella principale del repository**:
 
-Il sito si adatta a telefono, tablet e computer. Non richiede account, installazioni o servizi esterni per leggere le guide. Gli esercizi e le FAQ funzionano anche senza JavaScript; il contatore e il pulsante di azzeramento della checklist richiedono JavaScript. Le spunte non vengono salvate e si azzerano ricaricando la pagina.
-
-La dicitura **«Generato con ChatGPT»** compare in fondo a tutte le pagine.
-
-## Aprire il sito sul computer
-
-1. Scarica ed estrai lo ZIP del progetto.
-2. Apri il file **`index.html`** con il browser.
-3. Mantieni tutti i file nella stessa cartella, senza creare sottocartelle.
-
-I collegamenti ai siti ufficiali richiedono una connessione Internet.
-
-## Caricare i file su GitHub
-
-Nome del repository:
-
-```text
-dragon-ball-gekishin-squadra-guida-fan-italia
-```
-
-Descrizione suggerita per il campo **Description**:
-
-> Guida fan indipendente in italiano a Dragon Ball Gekishin Squadra: impara le basi, scopri i ruoli e migliora le tue strategie. Sito non ufficiale, con consigli originali e collegamenti alle fonti ufficiali. Non affiliato a Bandai Namco.
-
-### 1. Apri o crea il repository
-
-Se lo hai già creato, aprilo e seleziona la scheda **Code**. Altrimenti usa **+ → New repository**, inserisci il nome indicato sopra e scegli **Public**.
-
-### 2. Trova il comando di caricamento
-
-- **Repository vuoto:** clicca sul collegamento **uploading an existing file** nel riquadro iniziale.
-- **Repository con file già presenti:** clicca **Add file → Upload files** sopra l'elenco dei file.
-
-### 3. Carica il contenuto estratto
-
-Trascina nella pagina **tutti i file estratti, direttamente nella cartella principale del repository**. Non caricare lo ZIP e non trascinare una cartella esterna che racchiude tutto il sito: `index.html` deve trovarsi direttamente nella pagina principale del repository.
-
-Conferma con **Commit changes**, salvando nel ramo `main`. Se GitHub propone una modifica tramite un nuovo ramo, completa anche la relativa richiesta di integrazione prima di pubblicare da `main`.
-
-Se non riesci a includere `.nojekyll`, puoi aggiungerlo con **Add file → Create new file**, usando esattamente quel nome e lasciando il contenuto vuoto o con una riga vuota.
-
-## Pubblicare gratuitamente con GitHub Pages
-
-Con GitHub Free, Pages è disponibile per repository pubblici. Non serve acquistare un dominio.
-
-1. Nel repository apri **Settings → Pages**.
-2. In **Build and deployment**, imposta **Source → Deploy from a branch**.
-3. Seleziona il ramo **main** e la cartella **/(root)**.
-4. Premi **Save** e attendi il completamento della pubblicazione. Puoi seguirne l'esito nella scheda **Actions**.
-5. Torna in **Settings → Pages** e usa **Visit site**, quando disponibile.
-6. Se disponibile, attiva **Enforce HTTPS**.
-
-Usa l'indirizzo mostrato da GitHub. Questo è soltanto un esempio da personalizzare con il tuo nome utente:
-
-```text
-https://TUO-UTENTE.github.io/dragon-ball-gekishin-squadra-guida-fan-italia/
-```
-
-Sito pubblicato e verificato dopo la correzione dei percorsi: https://devfaxpro.github.io/dragon-ball-gekishin-squadra-guida-fan-italia/
-
-Istruzioni controllate il **15 ottobre 2026**. Riferimenti: [caricare file su GitHub](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository) e [configurare GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
-
-## Se qualcosa non funziona
-
-| Problema | Cosa controllare |
+| File | A cosa serve |
 | --- | --- |
-| Il sito mostra un errore 404 | `index.html` deve essere nella radice di `main`; Pages deve usare `main` e `/(root)`. |
-| Il sito appare senza colori o impaginazione | Verifica che `style.css`, `app.js` e `favicon.svg` siano accanto a `index.html`. |
-| Le modifiche non compaiono | Attendi la nuova pubblicazione in **Actions**, poi ricarica la pagina. |
-| Un file non viene trovato | Mantieni nomi e maiuscole/minuscole esattamente come nel pacchetto. |
+| `index.html` | Pagina iniziale completa, con grafica, guida ed esercizi. |
+| `note.html` | Fonti, spiegazioni sulle versioni, indipendenza e privacy. |
+| `404.html` | Pagina mostrata quando un indirizzo non esiste. |
+| `README.md` | Presentazione del progetto e istruzioni che stai leggendo. |
 
-## File del progetto
+Non caricare lo ZIP: estrailo prima. Non caricare la cartella che contiene i quattro file. `index.html` deve apparire direttamente nell'elenco principale del repository.
 
-```text
-.
-├── index.html
-├── note.html
-├── 404.html
-├── .nojekyll
-├── style.css
-├── app.js
-├── favicon.svg
-├── README.md
-├── DESCRIZIONE-REPOSITORY.txt
-├── VERIFICA.md
-└── DIRITTI.txt
-```
+## Aggiornare il repository esistente
 
-- **[index.html](index.html):** guida principale, esercizi e checklist.
-- **[note.html](note.html):** fonti, versioni, indipendenza e privacy.
-- **[VERIFICA.md](VERIFICA.md):** risultati dei controlli e limiti delle verifiche.
-- **[DIRITTI.txt](DIRITTI.txt):** informazioni sui materiali e sul loro riutilizzo.
-- **[DESCRIZIONE-REPOSITORY.txt](DESCRIZIONE-REPOSITORY.txt):** descrizione pronta da copiare su GitHub.
+1. Estrai `SITO-COMPLETO-DA-CARICARE.zip` sul computer.
+2. Apri il repository `dragon-ball-gekishin-squadra-guida-fan-italia` su GitHub.
+3. Nella scheda **Code**, premi **Add file → Upload files**.
+4. Trascina **insieme i quattro file estratti** nella pagina.
+5. Nel messaggio di modifica puoi scrivere `Aggiornamento sito completo`.
+6. Conferma con **Commit changes** nel ramo `main`. I file con lo stesso nome verranno aggiornati.
+7. Attendi la nuova pubblicazione nella scheda **Actions**, poi apri il sito. Sul computer puoi usare **Ctrl + F5** per ricaricarlo senza la vecchia copia in cache.
 
-HTML, CSS e JavaScript semplici: non servono compilazione, database o chiavi API.
+Se hai personalizzato il tuo README e vuoi conservarlo, carica soltanto i tre file HTML. Puoi anche salvare una copia del tuo README prima di sostituirlo.
 
-## Versione delle guide e manutenzione
+I vecchi `style.css`, `app.js`, `favicon.svg` e l'eventuale cartella `assets` non sono più usati da questa versione. Puoi lasciarli nel repository: non impediscono il funzionamento del nuovo sito.
 
-Le informazioni di gioco sono state verificate documentalmente il **15 ottobre 2026**, con riferimento anche alla patch 7.5 del 14 ottobre. Le guide descrivono il regolamento GEKISHIN precedente alla revisione annunciata, chiamata *overhaul*.
+## Impostazioni GitHub Pages
 
-**Le modifiche annunciate non sono presentate come già disponibili.** Quando entrerà in vigore il nuovo regolamento, andranno ricontrollati obiettivo, ruoli, crescita in partita e GEKISHIN Burst. Aggiorna insieme `index.html` e `note.html`, verificando le fonti e le istruzioni nel gioco prima di cambiare la data di revisione.
+Se il sito è già pubblicato, conserva queste impostazioni in **Settings → Pages**:
 
-I consigli strategici sono spunti editoriali, non garanzie di vittoria. Per i dettagli aggiornati delle abilità, consulta il gioco e le fonti ufficiali.
+- **Source:** Deploy from a branch
+- **Branch:** main
+- **Cartella:** /(root)
+
+Per attivarlo per la prima volta, seleziona queste opzioni e premi **Save**. Con GitHub Free puoi pubblicare da un repository pubblico; non occorre acquistare un dominio.
+
+Istruzioni verificate durante la preparazione del progetto, il 15 ottobre 2026. Riferimenti: [caricamento dei file](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository) e [pubblicazione GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+
+## Aprirlo senza pubblicarlo
+
+Dopo aver estratto lo ZIP, apri `index.html` nel browser. Mantieni anche `note.html` e `404.html` nella stessa cartella. Le guide si leggono senza Internet; i collegamenti ai siti ufficiali richiedono una connessione.
+
+## Contenuti e aspetto
+
+- Guide introduttive, ruoli, strategia, esercizi e checklist.
+- Tema ispirato ai colori della divisa di Goku: arancione, blu e oro su fondo crema.
+- Impaginazione adattabile a telefono, tablet e computer.
+- Dicitura **Generato con ChatGPT** in fondo alle pagine.
+- Nessuna community, chat, iscrizione o pubblicità.
+- Collegamenti ufficiali per personaggi, abilità, notizie e download, senza duplicare un'enciclopedia.
+
+FAQ ed esercizi sono utilizzabili anche senza JavaScript. La checklist non trasmette dati: le spunte si azzerano alla ricarica della pagina.
+
+## Versione e fonti
+
+Le informazioni sul gioco sono state verificate documentalmente il **15 ottobre 2026**, con riferimento anche alla patch 7.5 del 14 ottobre. Il sito distingue il regolamento GEKISHIN descritto dalle modifiche annunciate per l'overhaul.
+
+Quando verrà introdotto il nuovo regolamento, occorrerà aggiornare obiettivo, ruoli, progressione e GEKISHIN Burst. La ricostruzione di questo pacchetto riguarda il caricamento del sito e non costituisce una nuova verifica del gioco. Le fonti e i limiti sono nella [pagina delle note](note.html).
 
 ## Accessibilità e privacy
 
-Il sito usa titoli gerarchici, controlli nativi, focus visibile e un collegamento per saltare al contenuto. I controlli della versione precedente all'aggiunta della filigrana hanno incluso 15 combinazioni di pagina e larghezza, da 320 a 1440 pixel, senza violazioni rilevate da axe-core. Questi risultati non costituiscono una certificazione completa di accessibilità: il [rapporto](VERIFICA.md) specifica prove effettuate e limiti.
+Il sito usa controlli nativi, titoli gerarchici, focus visibile e un collegamento per saltare al contenuto. I controlli automatici non equivalgono a una certificazione completa di accessibilità.
 
-Il codice non imposta cookie, non raccoglie dati tramite moduli e non usa pubblicità, analytics o font esterni. L'hosting può trattare dati tecnici di connessione; per GitHub Pages consulta anche l'[informativa privacy di GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
+Il codice non imposta cookie, non usa analisi delle visite, non carica font esterni e non raccoglie dati tramite moduli. L'hosting può trattare informazioni tecniche di connessione: consulta anche l'[informativa GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
 
-## Crediti e indipendenza
+## Crediti e diritti
 
-Realizzato con il supporto di **ChatGPT**. Dragon Ball, Dragon Ball Gekishin Squadra e i relativi marchi e personaggi appartengono ai rispettivi titolari. I nomi sono utilizzati per identificare l'argomento della guida.
+Realizzato con il supporto di **ChatGPT**. Testi, simboli e schema tattico sono originali. Non sono riprodotti loghi, screenshot, musica, immagini dei personaggi o altri asset proprietari del gioco.
 
-Questo progetto è un aiuto realizzato da fan, non un sito ufficiale. Il disclaimer non implica un'autorizzazione da parte dei titolari dei diritti.
-
-## Correzione della pubblicazione
-
-Questo pacchetto usa tutti i file allo stesso livello. Le pagine caricano `style.css`, `app.js` e `favicon.svg` dalla cartella principale, come nel repository pubblicato. Non è più necessaria la cartella `assets`.
+Dragon Ball, Dragon Ball Gekishin Squadra e i relativi nomi e personaggi appartengono ai rispettivi titolari. I nomi sono citati per identificare l'argomento. Il disclaimer non costituisce un'autorizzazione dei titolari dei diritti.
